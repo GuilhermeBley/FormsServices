@@ -16,8 +16,6 @@ public partial class Form1 : Form
         _serviceProvider = serviceProvider;
         _sampleService = sampleService;
         _configuration = configuration;
-
-        Label1.Text = _configuration.GetConnectionString("Teste");
     }
 
     private void Button1_Click(object sender, EventArgs e)
